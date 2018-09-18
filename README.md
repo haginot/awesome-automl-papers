@@ -64,6 +64,9 @@ AutoML draws on many disciplines of machine learning, prominently including
 ### Automated Feature Engineering
 + #### Expand Reduce
   - 2017 | AutoLearn — Automated Feature Generation and Selection | Ambika Kaul, et al. | ICDM | [`PDF`](https://ieeexplore.ieee.org/document/8215494/)
+    - We present AutoLearn, a regression-based feature learning algorithm. 
+    - Our experimental evaluation on 18 UC Irvine and 7 Gene expression datasets, across different domains, provides evidence that the features learnt through our model can improve the overall prediction accuracy by 13.28%, compared to original feature space and 5.87% over other top performing models, across 8 different classifiers without using any domain knowledge.
+
   - 2017 | One button machine for automating feature engineering in relational databases | Hoang Thanh Lam, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/1706.00327.pdf)
   - 2016 | Automating Feature Engineering | Udayan Khurana, et al. | NIPS | [`PDF`](http://workshops.inf.ed.ac.uk/nips2016-ai4datasci/papers/NIPS2016-AI4DataSci_paper_13.pdf)
   - 2016 | ExploreKit: Automatic Feature Generation and Selection | Gilad Katz, et al. | ICDM | [`PDF`](http://ieeexplore.ieee.org/document/7837936/)
