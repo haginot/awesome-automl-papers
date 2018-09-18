@@ -72,6 +72,11 @@ AutoML draws on many disciplines of machine learning, prominently including
   - 2016 | Cognito: Automated Feature Engineering for Supervised Learning | Udayan Khurana, et al. | ICDMW | [`PDF`](http://ieeexplore.ieee.org/document/7836821/)
 + #### Meta Learning
   - 2017 | Learning Feature Engineering for Classification | Fatemeh Nargesian, et al. | IJCAI | [`PDF`](https://www.ijcai.org/proceedings/2017/0352.pdf)
+    - We present a novel technique, called Learning Feature Engineering (LFE), for automating feature engineering in classification tasks. 
+    - LFE is based on learning the effectiveness of applying a transformation (e.g., arithmetic or aggregate operators) on numerical features, from past feature engineering experiences. 
+    - Given a new dataset, LFE recommends a set of useful transformations to be applied on features without relying on model evaluation or explicit feature expansion and selection. 
+    - Our empirical results show that LFE outperforms other feature engineering approaches for an overwhelming majority (89%) of the datasets from various sources while incurring a substantially lower computational cost.
+    - Authors: fnargesian@cs.toronto.edu, {samulowitz, ukhurana}@us.ibm.com, lyes@gatech.edu, turaga@us.ibm.com
 + #### Reinforcement Learning
   - 2017 | Feature Engineering for Predictive Modeling using Reinforcement Learning | Udayan Khurana, et al. | arXiv | [`PDF`](https://arxiv.org/pdf/1709.07150.pdf)
   - 2010 | Feature Selection as a One-Player Game | Romaric Gaudel, Michele Sebag | ICML | [`PDF`](https://hal.archives-ouvertes.fr/inria-00484049/document)
