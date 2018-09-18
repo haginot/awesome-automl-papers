@@ -105,6 +105,12 @@ AutoML draws on many disciplines of machine learning, prominently including
 ### Hyperparameter Optimization
 + #### Bayesian Optimization
   - 2018 | High-Dimensional Bayesian Optimization via Additive Models with Overlapping Groups. |  PMLR | [`PDF`](https://arxiv.org/pdf/1802.07028v2.pdf)
+    - In this paper, we consider the approach of Kandasamy et al. (2015), in which the high-dimensional function decomposes as a sum of lower-dimensional functions on subsets of the underlying variables.
+    - In particular, we significantly generalize this approach by lifting the assumption that the subsets are disjoint, and consider additive models with arbitrary overlap among the subsets.
+    - By representing the dependencies via a graph, we deduce an efficient message passing algorithm for optimizing the acquisition function.
+    - In addition, we provide an algorithm for learning the graph from samples based on Gibbs sampling.
+    - We empirically demonstrate the effectiveness of our methods on both synthetic and real-world data.
+    - Authors: {paul.rolland, ilija.bogunovic, volkan.cevher}@epfl.ch, scarlett@comp.nus.edu.sg
   - 2018 | A Tutorial on Bayesian Optimization. | [`PDF`](https://arxiv.org/pdf/1807.02811.pdf)
   - 2016 | Bayesian Optimization with Robust Bayesian Neural Networks | Jost Tobias Springenberg， et al. | NIPS | [`PDF`](https://papers.nips.cc/paper/6117-bayesian-optimization-with-robust-bayesian-neural-networks.pdf)
     - the prototypical Bayesian optimization approach – using Gaussian process models – does not scale well to either many hyperparameters or many function evaluations.
@@ -150,6 +156,12 @@ AutoML draws on many disciplines of machine learning, prominently including
   - 2011 | Algorithms for Hyper-parameter Optimization | James Bergstra, et al. | NIPS | [`PDF`](https://dl.acm.org/citation.cfm?id=2986743)
 + #### Transfer Learning
   - 2016 | Efficient Transfer Learning Method for Automatic Hyperparameter Tuning | Dani Yogatama, Gideon Mann | JMLR | [`PDF`](https://pdfs.semanticscholar.org/75f2/6734972ebaffc6b43d45abd3048ef75f15a5.pdf)
+    - We propose a fast and effective algorithm for automatic hyperparameter tuning that can generalize across datasets.
+    - Our method is an instance of sequential model-based optimization (SMBO) that transfers information by constructing a common response surface for all datasets, similar to Bardenet et al.(2013). 
+    - The time complexity of reconstructing the response surface at every SMBO iteration in our method is linear in the number of trials (significantly less than previous work with comparable performance), allowing the method to realistically scale to many more datasets.
+    - Specifically, we use deviations from the per-dataset mean as the response values.
+    - We empirically show the superiority of our method on a large number of synthetic and real-world datasets for tuning hyperparameters of logistic regression and ensembles of classifiers.
+    - Authors: dyogatama@cs.cmu.edu, Gideon Mann Google Research
   - 2016 | Flexible Transfer Learning Framework for Bayesian Optimisation | Tinu Theckel Joy, et al. | PAKDD | [`PDF`](https://link.springer.com/chapter/10.1007/978-3-319-31753-3_9)
   - 2016 | Hyperparameter Optimization Machines | Martin Wistuba, et al. | DSAA | [`PDF`](http://ieeexplore.ieee.org/abstract/document/7796889/)
   - 2013 | Collaborative Hyperparameter Tuning | R´emi Bardenet, et al. | ICML | [`PDF`](http://proceedings.mlr.press/v28/bardenet13.pdf)
